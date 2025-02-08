@@ -6,6 +6,7 @@ import NewsApp from './NewsApp'
 import OnlineGame from './component/OnlineGame'
 import WeatherApp from './component/WeatherApp'
 import MovieHouse from './component/MovieHouse'
+// import BookApp from './component/BookApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function App() {
       <Route path='/news' element={<NewsApp/>}/>
       <Route path='/onlinegame' element={<OnlineGame/>}/>
       <Route path='/weather' element={<WeatherApp/>}/>
+      {/* <Route path='/book' element={<BookApp/>}/> */}
+      
     </Routes>
     </div>
     {/* <MovieHouse/> */}

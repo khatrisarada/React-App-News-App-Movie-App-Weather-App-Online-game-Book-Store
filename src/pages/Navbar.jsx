@@ -20,6 +20,11 @@ const Navbar = () => {
               News App
             </Link>
           </li>
+          {/* <li>
+            <Link to="/book" className="hover:text-gray-200 transition">
+            Book App
+            </Link>
+          </li> */}
           <li>
             <Link to="/weather" className="hover:text-gray-200 transition">
             Weather App
